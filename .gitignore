@@ -2,3 +2,5 @@ venv/
 .env
 **pycache**/
 *.pyc
+data/
+git rm -r --cached data
