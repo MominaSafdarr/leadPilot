@@ -1,0 +1,13 @@
+import os
+from dotenv import load_dotenv
+from supabase import create_client
+
+load_dotenv()
+
+supabase = create_client(
+    os.environ["SUPABASE_URL"],
+    os.environ["SUPABASE_SERVICE_KEY"]
+)
+
+result = supabase.table("companies").select("*").limit(1).execute()
+print("Connected. Sample result:", result.data)
