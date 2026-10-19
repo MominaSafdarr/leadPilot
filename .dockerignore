@@ -1,8 +1,0 @@
-venv/
-.env
-__pycache__/
-*.pyc
-data/mongodump_full_snapshot/
-data/owasp/*.pdf
-data/owasp/*.html
-.git/
