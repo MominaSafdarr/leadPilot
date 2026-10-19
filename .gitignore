@@ -2,3 +2,5 @@ venv/
 .env
 **pycache**/
 *.pyc
+/chroma_data/
+/data/mongodump_full_snapshot/
